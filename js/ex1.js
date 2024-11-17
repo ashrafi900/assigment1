@@ -76,16 +76,30 @@ if ( phone3.length == 9 ) {
 var power =Math.pow(32,6);
 console.log(power);
 
+var quantity ="25";
+console.log(quantity+=quantity)
+var temperature =null;
+console .log(temperature);
+console.log(typeof temperature);
+var pressure;
+console.log(typeof pressure);
+
+
 var getAddress = document.getElementById("url_1").innerText;
 var modifiedAdress = "https://"+getAddress;
 
 document.getElementById("url_2").innerText = modifiedAdress;
 
+var url ="https://www.google.com  ";
+console.log(url.replace("https://" ,""));
+document.getElementById("url_4").innerHTML=url.replace("https://" ,"");
 
-var replaceWith= document.getElementById("url_3").replaceWith;
 
-var replace = "https://"-replace;
-document.getElementById("url_4").innerText = replace;
+
+// var replaceWith= document.getElementById("url_3").replaceWith;
+
+// var replace = "https://"-replace;
+// document.getElementById("url_4").innerText = replace;
 
 
 
